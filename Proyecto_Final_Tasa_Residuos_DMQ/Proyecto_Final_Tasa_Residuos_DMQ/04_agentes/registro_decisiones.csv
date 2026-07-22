@@ -1,0 +1,6 @@
+fecha,agente,decisión,estado,justificación
+2026-07-21,Coordinador,Usar dashboard HTML y JavaScript,Aceptada,Facilita despliegue en Vercel sin Python
+2026-07-21,Datos,Incluir base simulada,Aceptada temporalmente,Permite demostrar metodología
+2026-07-21,Crítico,No afirmar impacto causal,Aceptada,No existe contrafactual
+2026-07-21,Verificador,Etiquetar toda simulación,Aceptada,Evita presentar cifras ficticias como oficiales
+2026-07-21,Políticas,Proponer tarifa mixta,Aceptada,Equilibra estabilidad e incentivo ambiental
