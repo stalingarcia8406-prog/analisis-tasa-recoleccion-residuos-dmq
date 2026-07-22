@@ -1,9 +1,0 @@
-body{margin:0;font-family:Arial;background:#f3f6f5;color:#17212b}
-header{background:#205947;color:white;padding:40px 7%}
-main{width:min(1050px,92%);margin:25px auto}
-.warning{background:#fff3c4;padding:15px;margin-bottom:20px;border-radius:10px}
-select{padding:9px}
-.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:20px 0}
-.cards article,.panel{background:white;padding:20px;border-radius:14px;box-shadow:0 5px 18px #0001}
-.cards strong{display:block;font-size:25px;margin-top:8px}
-@media(max-width:700px){.cards{grid-template-columns:1fr 1fr}}
