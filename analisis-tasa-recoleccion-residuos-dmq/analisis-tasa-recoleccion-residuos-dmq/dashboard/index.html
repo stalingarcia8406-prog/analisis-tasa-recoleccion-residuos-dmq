@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tasa de recolección DMQ</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<header>
+<h1>Tasa de recolección de residuos sólidos en el DMQ</h1>
+<p>Comparación exploratoria de tres mecanismos de cobro</p>
+</header>
+<main>
+<div class="warning"><b>Advertencia:</b> datos simulados.</div>
+<label>Sector:
+<select id="sector">
+<option>Todos</option><option>Residencial</option>
+<option>Comercial</option><option>Industrial</option>
+</select></label>
+<section class="cards">
+<article>Usuarios<strong id="usuarios">0</strong></article>
+<article>Agua<strong id="agua">$0</strong></article>
+<article>Electricidad<strong id="luz">$0</strong></article>
+<article>Independiente<strong id="independiente">$0</strong></article>
+</section>
+<section class="panel"><canvas id="grafico"></canvas></section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
