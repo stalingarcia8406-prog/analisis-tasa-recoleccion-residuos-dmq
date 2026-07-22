@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tasa de recolección DMQ</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<header>
+<div class="wrap">
+<p class="eyebrow">PROYECTO INTEGRADOR FINAL</p>
+<h1>Evaluación y rediseño de la tasa de recolección de residuos sólidos del DMQ</h1>
+<p>Comparación exploratoria entre cobro en agua, electricidad y un esquema independiente.</p>
+</div>
+</header>
+<main class="wrap">
+<div class="warning"><b>Advertencia metodológica:</b> los datos presentados son simulados y sirven únicamente para demostrar el método.</div>
+<section class="controls">
+<label>Sector
+<select id="sector">
+<option value="Todos">Todos</option>
+<option value="Residencial">Residencial</option>
+<option value="Comercial">Comercial</option>
+<option value="Industrial">Industrial</option>
+</select>
+</label>
+</section>
+<section class="cards">
+<article><span>Usuarios</span><strong id="usuarios">0</strong></article>
+<article><span>Recaudación - agua</span><strong id="agua">$0</strong></article>
+<article><span>Recaudación - electricidad</span><strong id="luz">$0</strong></article>
+<article><span>Recaudación - independiente</span><strong id="independiente">$0</strong></article>
+</section>
+<section class="grid">
+<article class="panel"><h2>Recaudación por escenario</h2><canvas id="graficoEscenarios"></canvas></article>
+<article class="panel"><h2>Pago promedio por sector</h2><canvas id="graficoSectores"></canvas></article>
+<article class="panel wide"><h2>Relación entre residuos y pago</h2><canvas id="graficoRelacion"></canvas></article>
+</section>
+<section class="panel">
+<h2>Interpretación</h2>
+<p>El esquema asociado a electricidad puede producir pagos elevados para usuarios intensivos en energía, aunque su generación de residuos no sea proporcional. El escenario independiente alinea mejor el pago con los residuos simulados, pero exige medición, fiscalización y protección para hogares vulnerables.</p>
+</section>
+</main>
+<footer>Proyecto académico individual - 2026</footer>
+<script src="app.js"></script>
+</body>
+</html>
